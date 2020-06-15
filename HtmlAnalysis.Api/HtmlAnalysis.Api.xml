@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HtmlAnalysis.Api</name>
+    </assembly>
+    <members>
+        <member name="T:HtmlAnalysis.Api.Controllers.WordsController">
+            <summary>
+            Html Analysis end points
+            </summary>
+        </member>
+        <member name="M:HtmlAnalysis.Api.Controllers.WordsController.#ctor(Microsoft.Extensions.Logging.ILogger{HtmlAnalysis.Api.Controllers.WordsController},HtmlAnalysis.Services.IWordCountSvc)">
+            <summary>
+            WordsController
+            </summary>
+        </member>
+        <member name="M:HtmlAnalysis.Api.Controllers.WordsController.ProcessWords(HtmlAnalysis.Services.Model.WordProcessRequest)">
+            <summary>
+            ProcessWords | Save and return top 100 words
+            </summary>
+            <param name="req"></param>        
+        </member>
+        <member name="M:HtmlAnalysis.Api.Controllers.WordsController.GetWords(System.Int32,System.Int32)">
+            <summary>
+            GetWords | Get list of words and counts by Desc
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="next"></param>
+        </member>
+    </members>
+</doc>

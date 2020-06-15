@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jqcloud@1.0.4",
+      "destination": "wwwroot/lib/jqcloud/"
+    }
+  ]
+}

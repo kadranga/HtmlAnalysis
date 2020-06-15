@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Personal\Tp-Tec-test\TP-test\HtmlAnalysis\HtmlAnalysis.Api\HtmlAnalysis.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HtmlAnalysis.Data\HtmlAnalysis.Data.csproj" />
+    <ProjectReference Include="..\HtmlAnalysis.Services\HtmlAnalysis.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
