@@ -1,5 +1,5 @@
 # Install instruction
-## clone https://github.com/kadranga/HtmlAnalysis.git (git clone https://github.com/kadranga/HtmlAnalysis.git)
+## clone https://github.com/kadranga/HtmlAnalysis.git
 ## Execute DBScript.sql
 ## Update HtmlAnalysis.Api connection string data source
 ## Open project solution folder on command prompt
