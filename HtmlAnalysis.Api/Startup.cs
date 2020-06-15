@@ -37,8 +37,8 @@ namespace HtmlAnalysis.Api
                 options.AddDefaultPolicy(
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost", 
-                            "https://localhost:44383", "http://localhost:44383")
+                        builder.WithOrigins("http://localhost",
+                            "https://localhost:44327", "http://localhost:44327")
                                 .AllowAnyHeader()
                                 .AllowAnyMethod();
                     });

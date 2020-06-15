@@ -40,7 +40,7 @@
         $("#getWords").click(function () {
             var pageIndex = $("#inputPageIndex").val();
             var next = $("#inputRowsDisplay").val();
-            var url = "https://localhost:44343/api/words?pageIndex=" + pageIndex + "&next=" + next;
+            var url = "https://localhost:44336/api/words?pageIndex=" + pageIndex + "&next=" + next;
 
             $.ajax({
                 type: "GET",
