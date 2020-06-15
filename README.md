@@ -1,5 +1,5 @@
-#Install instruction
-## clone 
+# Install instruction
+## clone https://github.com/kadranga/HtmlAnalysis.git (git clone https://github.com/kadranga/HtmlAnalysis.git)
 ## Execute DBScript.sql
 ## Update HtmlAnalysis.Api connection string data source
 ## Open project solution folder on command prompt
@@ -16,7 +16,7 @@
 	Admin page list saved words from the database
 	
 
-#Technologies 
+# Technologies 
 ## .net core 3.1
 ## word cloud => jqcloud (http://mistic100.github.io/jQCloud/demo.html)
 ## HtmlAgilityPack to extracts words from the DOM (https://html-agility-pack.net/)
